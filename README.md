@@ -6,3 +6,6 @@ This is a personal Full-stack project that I started this month and will continu
 
 #Step 1
 If you decide to test this product, ensure to run main.py after pulling. This will launce the server and create the database. The Database included in this GIT is an example of the one created by the program.
+
+#Step 2
+Launch your webpage from localhost:5000/index - Then you will be able to navigate the desired pages. If you do not include '/index' - you will be Obi-wan'd ;).
