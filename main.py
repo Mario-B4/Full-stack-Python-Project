@@ -15,7 +15,7 @@ def services():
             # Get the selected row IDs
             selected_rows = request.form.getlist('row')
             # Connect to the database
-            connection = sqlite3.connect('Group Project Updated/services.db')
+            connection = sqlite3.connect('services.db')
             cursor = connection.cursor()
             # Remove the selected rows from the database
             for row_id in selected_rows:
@@ -23,7 +23,7 @@ def services():
             connection.commit()
             connection.close()
 
-            return redirect('Group Project Updated/services')
+            return redirect('services.db')
 
         else:
             name = request.form['name']
@@ -31,7 +31,7 @@ def services():
             description = request.form['description']
 
             # Connect to the database
-            connection = sqlite3.connect('Group Project Updated/services.db')
+            connection = sqlite3.connect('services.db')
             cursor = connection.cursor()
 
             # Insert the new entry into the database
@@ -43,7 +43,7 @@ def services():
 
     else:
         # Connect to the database
-        connection = sqlite3.connect('Group Project Updated/services.db')
+        connection = sqlite3.connect('services.db')
         cursor = connection.cursor()
 
         # Get all services from the database
