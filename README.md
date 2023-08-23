@@ -9,3 +9,5 @@ If you decide to test this product, ensure to run main.py after pulling. This wi
 
 #Step 2
 Launch your webpage from localhost:5000/index - Then you will be able to navigate the desired pages. If you do not include '/index' - you will be Obi-wan'd ;).
+
+Note: The login.py file is a dev file and not currently functional.
