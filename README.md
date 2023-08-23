@@ -5,7 +5,7 @@ This is a personal Full-stack project that I started this month and will continu
  A database is created using SQLite that may be edited (create/delete) data points from the webpage to simulate an ERP managing company databases.
 
 #Step 1
-If you decide to test this product, ensure to run main.py after pulling. This will launce the server and create the database. The Database included in this GIT is an example of the one created by the program.
+If you decide to test this product, ensure to run main.py after pulling. This will launch the server and create the database connection. The database included in this GIT is a simple example in regards to relational databases.
 
 #Step 2
 Launch your webpage from localhost:5000/index - Then you will be able to navigate the desired pages. If you do not include '/index' - you will be Obi-wan'd ;).
